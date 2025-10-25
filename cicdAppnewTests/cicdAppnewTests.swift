@@ -5,12 +5,13 @@
 //  Created by bryangarcia on 25/10/25.
 //
 
-import Testing
+import XCTest
+@testable import cicdAppnew
 
-struct cicdAppnewTests {
+class cicdAppnewTests: XCTestCase {
 
-    @Test func example() async throws {
-        // Write your test here and use APIs like `#expect(...)` to check expected conditions.
+    func testEcample() throws {
+        XCTAssertEqual(2 * 2, 4)
     }
 
 }
